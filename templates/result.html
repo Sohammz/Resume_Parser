@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Resume Skill Dashboard</title>
+<link rel="stylesheet" href="/static/style.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1 class="title">Resume Skill Analysis</h1>
+
+<!-- Summary Cards -->
+
+<div class="summary-grid">
+
+<div class="summary-card">
+<h2>{{total_categories}}</h2>
+<p>Skill Categories</p>
+</div>
+
+<div class="summary-card">
+<h2>{{total_skills}}</h2>
+<p>Total Skills</p>
+</div>
+
+<div class="summary-card">
+<h2>NLP</h2>
+<p>AI Powered</p>
+</div>
+
+</div>
+
+
+<!-- Skills Dashboard -->
+
+<div class="dashboard">
+
+{% for category in skills %}
+
+<div class="category-card">
+
+<h3>{{category}}</h3>
+
+<div class="skill-container">
+
+{% for skill in skills[category] %}
+
+<span class="skill-tag">{{skill}}</span>
+
+{% endfor %}
+
+</div>
+
+</div>
+
+{% endfor %}
+
+</div>
+
+<a class="back-btn" href="/">Upload Another Resume</a>
+
+</div>
+
+</body>
+</html>

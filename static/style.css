@@ -1,0 +1,245 @@
+body{
+
+background:#F6F7FB;
+font-family:'Segoe UI',sans-serif;
+margin:0;
+padding:0;
+color:#2F2F2F;
+
+}
+
+.container{
+
+max-width:900px;
+margin:auto;
+text-align:center;
+padding-top:80px;
+
+}
+
+/* Title */
+
+.title{
+
+font-size:48px;
+font-weight:800;
+margin-bottom:10px;
+color:#6C8EF5;
+
+}
+
+.subtitle{
+
+font-size:18px;
+margin-bottom:40px;
+color:#555;
+
+}
+
+/* Upload card */
+
+.upload-card{
+
+background:white;
+padding:40px;
+border-radius:12px;
+box-shadow:0 10px 25px rgba(0,0,0,0.08);
+margin-bottom:25px;
+
+}
+
+.upload-card input{
+
+font-size:16px;
+
+}
+
+.hint{
+
+margin-top:10px;
+font-size:14px;
+color:#888;
+
+}
+
+/* Button */
+
+.analyze-btn{
+
+background:#6C8EF5;
+border:none;
+padding:15px 35px;
+font-size:18px;
+font-weight:600;
+color:white;
+border-radius:8px;
+cursor:pointer;
+transition:0.3s;
+
+}
+
+.analyze-btn:hover{
+
+background:#5a79d6;
+
+}
+
+/* Category card */
+
+.category-card{
+
+background:white;
+padding:30px;
+border-radius:12px;
+box-shadow:0 8px 20px rgba(0,0,0,0.07);
+margin-top:30px;
+
+}
+
+.category-card h2{
+
+font-size:26px;
+font-weight:700;
+margin-bottom:15px;
+
+}
+
+/* Skills */
+
+.skill-container{
+
+margin-top:15px;
+
+}
+
+.skill-tag{
+
+background:#F7A9A8;
+color:white;
+padding:10px 16px;
+margin:6px;
+display:inline-block;
+border-radius:20px;
+font-size:15px;
+font-weight:600;
+
+}
+
+/* Back button */
+
+.back-btn{
+
+display:inline-block;
+margin-top:40px;
+padding:12px 25px;
+background:#6C8EF5;
+color:white;
+border-radius:8px;
+text-decoration:none;
+font-weight:600;
+
+}
+
+.back-btn:hover{
+
+background:#5a79d6;
+
+}
+/* Summary Cards */
+
+.summary-grid{
+
+display:flex;
+justify-content:center;
+gap:25px;
+margin-top:30px;
+flex-wrap:wrap;
+
+}
+
+.summary-card{
+
+background:white;
+padding:25px;
+border-radius:12px;
+width:200px;
+box-shadow:0 8px 20px rgba(0,0,0,0.07);
+
+}
+
+.summary-card h2{
+
+font-size:36px;
+margin:0;
+color:#6C8EF5;
+
+}
+
+.summary-card p{
+
+margin-top:5px;
+font-size:14px;
+color:#777;
+
+}
+
+/* Dashboard */
+
+.dashboard{
+
+margin-top:40px;
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:25px;
+
+}
+
+/* Category Card */
+
+.category-card{
+
+background:white;
+padding:25px;
+border-radius:12px;
+box-shadow:0 8px 20px rgba(0,0,0,0.07);
+
+}
+
+.category-card h3{
+
+font-size:22px;
+margin-bottom:15px;
+color:#333;
+
+}
+
+/* Skill Tags */
+
+.skill-tag{
+
+background:#F7A9A8;
+color:white;
+padding:8px 14px;
+margin:6px;
+display:inline-block;
+border-radius:18px;
+font-size:14px;
+font-weight:600;
+
+}
+
+/* Button */
+
+.back-btn{
+
+display:inline-block;
+margin-top:40px;
+margin-bottom: 40px;
+padding:14px 28px;
+background:#6C8EF5;
+color:white;
+border-radius:8px;
+text-decoration:none;
+font-weight:600;
+
+}
