@@ -27,7 +27,7 @@ def index():
 
         skills = extract_skills(text)
 
-        # ✅ Calculate total skills
+    
         total_skills = sum(len(v) for v in skills.values())
 
         total_categories = len([c for c in skills if skills[c]])
